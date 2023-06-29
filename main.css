@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeee;
+    width: 100%;
+    min-height: 100vh;
+    padding: 16px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+img {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 3px solid #b6b6b6;
+    width: 400px;
+
+}
